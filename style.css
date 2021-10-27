@@ -1,5 +1,117 @@
-#text_logo{
-    color: red;
-    border: red 1px solid;
-    display: inline;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
+body{
+    display: flex;
+    
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2932;
+    top:0px;
+    width: 100%;
+    height: 380px;
+    /*border:  4px solid green;*/
+    padding: 10px 0px 35px 0px;
+    
+}
+header{
+    display: flex;
+    background-color: #1F2932;
+    width: 70%;
+    justify-content: space-between;
+    /*border: white 1px solid;*/
+    
+    
+}
+.logo{
+    display: flex;
+    /*border: 1px solid white;*/
+    align-items: center;
+}
+.text_logo{
+    display: flex;
+    align-self: flex-end;
+    color: white;
+    font-weight:bold;
+    font-size: 32px;
+    font-family: "Brush Script MT", cursive;
+    /*border: red 1px solid;*/
+    
+}
+.links{
+    /*border: 1px rgb(30, 151, 0) solid;*/
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+}
+ul,a,li{
+    display: inline-flex;
+    gap: 15px;
+    font-weight: bolder;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border: 2px rgb(22, 114, 190) solid;
+    font-size: 20px;
+    background-color: rgba(22, 114, 190,0.01);
+}
+.content{
+    /*border: 1px solid pink;*/
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+h1.headline{
+    display: inline;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    /*border: 1px orange solid;*/
+}
+p.discription{
+    color: white;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.image-box{
+    /*border: orangered 1px solid;*/
+    display: inline;
+    display: flex;
+    align-self: flex-end;
+    border:4px white solid;
+}
+.left{
+    /*border: 1px white solid;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    background: #0f87f0;
+    display: flex;
+    text-align: center;
+    padding-left: 9px;
+    font-size: 30px;
+    color: white;
+    width:120px;
+    border-radius: 30%;
+
+}
+
+
